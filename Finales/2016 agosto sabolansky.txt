@@ -1,0 +1,16 @@
+Lo divide en 4 capas, dice "capa de (el tipo de capa)" y a continuacion los incisos
+
+en capa de aplicacion pregunto 3 diferencias que tenga tcp que no tenga udp y que le grafiques el triple saludo asumiendo que el puerto del lado del servidor no estaba abierto aun (este grafico esta en el libro)
+
+en capa de red tomo una tabla de ruteo incompleta y vos tenias que completarla, te daba cosas a las que le faltaba la red o la mascara o la interface o a veces dos de estas, nunca te daba una linea incompleta, y ahi vos tenias que imaginarte como era la topologia, eso fue un pijaso porque tenias que abstraerte un monton
+
+Luego te decia que le asignaras al router las ip y la interface que le faltaba, porque en la tabla vos graficas los caminos a los vecinos, no las ips del lado del router, sino del enlace receptor, se entiende ?. Basicamente que le pongas los numeritos con sus "INTERFACES" al enlace que sale del router, no donde termina el enlace
+
+Luego te preguntaba hacia donde iria un paquete si iba dirigido hacia tal red con TTL X. Esta fue tramposa porque habia una que tenia TTL 1 y cuando es TTL el paquete no pasa del router, muere ahi. Buscalo en wiki, con TTL 1 o 0 no llega al otro lado el paquete, te tira un mensaje de error con ICMP
+
+Despues decia cuando mensajes de ARP se usarian en total.
+
+Para la capa de transporte preguntaba sobre DNS, diferencia entre autoritativo y raiz, y tipos de dominios en el TLD, son 2 grupos y un grupo se divide en 2, y que servidor DNS deberia tener el servidor local para que funcione
+
+Despues de la capa de enlace te hacia preguntas sobre como se comportaba ARP si tenias un hub o un swich, te daba el dibujo, era una topologia y tenias un hub, pregunta como se comporta primer con hub y despues dice que pienses que ahora son switchs. Y te pregunta todo ahi, a quienes les llega el paquete, quienes escuchan, que tablas se actualizan, por donde pasa,etc
+Son creo que 5 preguntitas y te pide que las vuelvas a responder pero ahora imaginando que es un switch

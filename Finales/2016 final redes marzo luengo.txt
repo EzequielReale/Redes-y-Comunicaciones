@@ -1,0 +1,6 @@
+﻿Tomó Luengo, y preguntas cortas, relativamente el final fue fácil.
+La primera era en la fragmentación de datagramas ip quien la detectaba.
+La segunda era una topología que tenia un error habia que decir que error y como solucionarlo(era un loop y habia que cambiar un default gateway)
+La tercera era una pregunta de las VLAN que esta en uno de los finales, v1 y v2.
+La cuarta era ventanas de recepción y congestión como estaban relacionadas y que era la de congestión,
+La quinta era un verdadero o falso que decia "TCP e IP hacen checksum solo en el host receptor".
